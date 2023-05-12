@@ -63,7 +63,7 @@ export default function SingUp() {
             <input
               type={"password"}
               id="sing_password"
-              pattern="^[A-Za-z0-9]{6,30}$"
+              pattern="^[A-Za-z]{1}[\w]{6,30}$"
               placeholder="Your password"
               required
             />
